@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import additivesJson from "./data/additives.json";
-import { matchAdditives, type Additive } from "./match";
+import { matchAdditives, queryAccent, type Additive } from "./match";
 
 const db = additivesJson as Additive[];
 
@@ -158,6 +158,23 @@ describe("matchAdditives", () => {
     const fromDb = matchAdditives(db, "322");
     expect(byCode(fromDb, "E322")?.status).toBe("maybe");
     expect(byCode(fromDb, "E322a")?.status).toBe("vegan");
+  });
+});
+
+describe("queryAccent", () => {
+  it("is null when the query is empty or incomplete", () => {
+    expect(queryAccent(matchAdditives(seed, ""), "")).toBeNull();
+    expect(queryAccent(matchAdditives(seed, "12"), "12")).toBeNull();
+  });
+
+  it("uses the exact match even when a longer prefix remains", () => {
+    expect(queryAccent(matchAdditives(seed, "120"), "120")).toBe("not_vegan");
+    expect(queryAccent(matchAdditives(seed, "124"), "124")).toBe("vegan");
+    expect(queryAccent(matchAdditives(seed, "471"), "471")).toBe("maybe");
+  });
+
+  it("stays null when exact matches disagree", () => {
+    expect(queryAccent(matchAdditives(seed, "322"), "322")).toBeNull();
   });
 });
 

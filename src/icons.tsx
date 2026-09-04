@@ -29,6 +29,26 @@ export function DiamondBar({ class: className }: IconProps) {
   );
 }
 
+export function LogoE({ accent }: { accent: Status | null }) {
+  const bar =
+    accent === "vegan"
+      ? "query-bar yes"
+      : accent === "not_vegan"
+        ? "query-bar no"
+        : accent === "maybe"
+          ? "query-bar maybe"
+          : "query-bar";
+
+  return (
+    <svg class="query-logo" viewBox="0 0 50 61" aria-hidden="true">
+      <rect x="0" y="0" width="13" height="61" />
+      <rect x="0" y="0" width="50" height="13" />
+      <rect class={bar} x="13" y="24.5" width="32" height="12" />
+      <rect x="0" y="48" width="50" height="13" />
+    </svg>
+  );
+}
+
 export function StatusMark({ status }: { status: Status }) {
   if (status === "vegan") return <CheckCircle class="mark mark-yes" />;
   if (status === "not_vegan") return <SlashCircle class="mark mark-no" />;

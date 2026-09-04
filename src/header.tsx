@@ -11,14 +11,8 @@ type Props = {
 export function Header({ lang, onLang }: Props) {
   return (
     <header class="topbar">
-      <img
-        class="logo"
-        src={`${import.meta.env.BASE_URL}logo.png`}
-        width={28}
-        height={28}
-        alt="e2v"
-      />
-      <div class="lang-switch" role="group" aria-label="Language">
+      <div class="lang-switch" data-lang={lang} role="group" aria-label="Language">
+        <span class="lang-thumb" aria-hidden="true" />
         <button
           type="button"
           class={lang === "en" ? "lang-opt on" : "lang-opt"}

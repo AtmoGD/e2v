@@ -27,3 +27,11 @@ export function matchAdditives(additives: Additive[], query: string): Additive[]
       return suffixKey(a.suffix).localeCompare(suffixKey(b.suffix));
     });
 }
+
+export function queryAccent(results: Additive[], query: string): Status | null {
+  if (!query) return null;
+  const exact = results.filter((row) => row.digitKey === query);
+  if (exact.length === 0) return null;
+  const status = exact[0].status;
+  return exact.every((row) => row.status === status) ? status : null;
+}
