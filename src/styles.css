@@ -28,7 +28,8 @@ html,
 body {
   margin: 0;
   width: 100%;
-  height: 100%;
+  height: 100svh;
+  max-height: 100svh;
   background: var(--bg);
   color: var(--fg);
   font-family: -apple-system, system-ui, "Segoe UI", sans-serif;
@@ -38,10 +39,28 @@ body {
 
 #app {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100svh;
+  max-height: 100svh;
   overflow: hidden;
   background: var(--bg);
   color: var(--fg);
+}
+
+@media (display-mode: standalone) {
+  html,
+  body,
+  #app {
+    height: 100vh;
+    max-height: 100vh;
+  }
+
+  .pad {
+    padding-bottom: env(safe-area-inset-bottom, 8px);
+  }
 }
 
 button {
@@ -324,24 +343,46 @@ button {
   line-height: 1.45;
 }
 
-.lang {
+.lang-switch {
   display: flex;
+  align-items: center;
   flex: 0 0 auto;
+  min-height: 44px;
+  padding: 3px;
+  border-radius: 999px;
+  background: var(--key);
 }
 
-.lang-btn {
-  min-width: 44px;
-  min-height: 44px;
+.lang-opt {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 38px;
+  padding: 0 10px;
+  border-radius: 999px;
   color: var(--fg-muted);
-  opacity: 0.4;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.04em;
 }
 
-.lang-btn.on {
-  opacity: 1;
+.lang-opt.on {
+  background: var(--surface);
   color: var(--fg);
+}
+
+.flag {
+  width: 18px;
+  height: 12px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgb(255 255 255 / 0.08);
+}
+
+.flag svg {
+  display: block;
+  width: 18px;
+  height: 12px;
 }
 
 .empty-hit {
@@ -381,7 +422,7 @@ button {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-1);
   padding: var(--space-2);
-  padding-bottom: max(var(--space-2), env(safe-area-inset-bottom, 0px));
+  padding-bottom: 8px;
   background: var(--bg);
   user-select: none;
   -webkit-user-select: none;
