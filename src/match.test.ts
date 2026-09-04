@@ -188,4 +188,16 @@ describe("seed statuses in additives.json", () => {
       expect(row.code, row.code).not.toMatch(/[()]/);
     }
   });
+
+  it("keeps the 2026 inventory corrections", () => {
+    expect(byCode(db, "E246")?.status).toBe("vegan");
+    expect(byCode(db, "E246")?.food_authorised_eu).toBe(true);
+    expect(byCode(db, "E246")?.names.en).toMatch(/glycolipid/i);
+    expect(byCode(db, "E534")?.names.en).toMatch(/iron tartrate/i);
+    expect(byCode(db, "E534")?.names.de).toMatch(/eisentartrat/i);
+    expect(byCode(db, "E483")?.authorised_eu).toBe(false);
+    expect(byCode(db, "E912")?.authorised_eu).toBe(false);
+    expect(byCode(db, "E921")?.authorised_eu).toBe(false);
+    expect(byCode(db, "E921")?.status).toBe("maybe");
+  });
 });

@@ -89,13 +89,25 @@ export const STATUS_OVERRIDE = {
   E1518: "maybe",
 };
 
-export const GHOSTS = new Set(["E428", "E441", "E542", "E913", "E1000"]);
+export const GHOSTS = new Set([
+  "E428",
+  "E441",
+  "E483",
+  "E542",
+  "E912",
+  "E913",
+  "E921",
+  "E1000",
+]);
 export const NOT_FOOD_AUTHORISED = new Set([
   "E171",
   "E428",
   "E441",
+  "E483",
   "E542",
+  "E912",
   "E913",
+  "E921",
   "E1000",
   "E161g",
 ]);
@@ -157,6 +169,18 @@ export const REASON_OVERRIDE = {
   E171: {
     en: "Mineral pigment. Vegan, but no longer authorised in EU food.",
     de: "Mineralisches Pigment. Vegan, in der EU für Lebensmittel nicht mehr zugelassen.",
+  },
+  E483: {
+    en: "Fatty acids may be plant or animal. Removed from the EU food list in 2024.",
+    de: "Fettsäuren können pflanzlich oder tierisch sein. Seit 2024 nicht mehr in der EU-Liste.",
+  },
+  E912: {
+    en: "Wax from lignite. Vegan, but removed from the EU food list in 2014.",
+    de: "Wachs aus Braunkohle. Vegan, seit 2014 nicht mehr in der EU-Liste.",
+  },
+  E921: {
+    en: "Often from hair or feathers; some lots are fermented. Not an EU food E-number.",
+    de: "Oft aus Haaren oder Federn; manchmal fermentiert. Keine EU-Lebensmittel-E-Nummer.",
   },
 };
 

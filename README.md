@@ -94,7 +94,7 @@ This is **shopping guidance**, not a guarantee and not allergy advice. Origin ca
 
 ## Database
 
-About **343** codes: EU Annex II Part B inventory (Regulation (EC) No 1333/2008, plus E960b from 2025/652) and a few ghost codes people still type.
+About **344** codes: EU Annex II Part B inventory (Regulation (EC) No 1333/2008, plus E960b from 2025/652 and E246 glycolipids) and a few ghost codes people still type.
 
 - Built by `scripts/inventory.txt` + `scripts/overlay.mjs` → `src/data/additives.json`
 - Rebuild: `npm run build:data`

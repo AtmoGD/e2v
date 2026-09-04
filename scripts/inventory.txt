@@ -62,6 +62,7 @@ E235|Natamycin|Natamycin
 E239|Hexamethylene tetramine|Hexamethylentetramin
 E242|Dimethyl dicarbonate|Dimethyldicarbonat
 E243|Ethyl lauroyl arginate|Ethyllaurylarginat
+E246|Glycolipids|Glycolipide
 E249|Potassium nitrite|Kaliumnitrit
 E250|Sodium nitrite|Natriumnitrit
 E251|Sodium nitrate|Natriumnitrat
@@ -226,7 +227,7 @@ E527|Ammonium hydroxide|Ammoniumhydroxid
 E528|Magnesium hydroxide|Magnesiumhydroxid
 E529|Calcium oxide|Calciumoxid
 E530|Magnesium oxide|Magnesiumoxid
-E534|Tin(II) sulphate|Zinn(II)-sulfat
+E534|Iron tartrate|Eisentartrat
 E535|Sodium ferrocyanide|Natriumferrocyanid
 E536|Potassium ferrocyanide|Kaliumferrocyanid
 E538|Calcium ferrocyanide|Calciumferrocyanid
