@@ -1,0 +1,37 @@
+{
+  "id": "e2v",
+  "name": "e2v",
+  "short_name": "e2v",
+  "description": "Check whether an E-number is vegan",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07080C",
+  "theme_color": "#07080C",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

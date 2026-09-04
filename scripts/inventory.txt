@@ -1,0 +1,343 @@
+E100|Curcumin|Kurkumin
+E101|Riboflavin|Riboflavin
+E101a|Riboflavin-5'-phosphate|Riboflavin-5'-phosphat
+E102|Tartrazine|Tartrazin
+E104|Quinoline Yellow|Chinolingelb
+E110|Sunset Yellow FCF|Gelborange S
+E120|Cochineal / carmine|Echtes Karmin / Cochenille
+E122|Azorubine|Azorubin
+E123|Amaranth|Amaranth
+E124|Ponceau 4R|Cochenillerot A
+E127|Erythrosine|Erythrosin
+E129|Allura Red AC|Allurarot AC
+E131|Patent Blue V|Patentblau V
+E132|Indigotine|Indigotin
+E133|Brilliant Blue FCF|Brillantblau FCF
+E140|Chlorophylls|Chlorophylle
+E141|Copper complexes of chlorophylls|Kupferkomplexe der Chlorophylle
+E142|Green S|Grün S
+E150a|Plain caramel|Zuckerkulör
+E150b|Caustic sulphite caramel|Sulfitlaugen-Zuckerkulör
+E150c|Ammonia caramel|Ammoniak-Zuckerkulör
+E150d|Sulphite ammonia caramel|Ammoniumsulfit-Zuckerkulör
+E151|Brilliant Black BN|Brillantschwarz BN
+E153|Vegetable carbon|Pflanzenkohle
+E155|Brown HT|Braun HT
+E160a|Carotenes|Carotine
+E160b|Annatto / bixin / norbixin|Annatto / Bixin / Norbixin
+E160c|Paprika extract|Paprikaextrakt
+E160d|Lycopene|Lycopin
+E160e|Beta-apo-8'-carotenal|Beta-Apo-8'-carotinal
+E161b|Lutein|Lutein
+E161g|Canthaxanthin|Canthaxanthin
+E162|Beetroot red|Betenrot
+E163|Anthocyanins|Anthocyane
+E170|Calcium carbonate|Calciumcarbonat
+E171|Titanium dioxide|Titandioxid
+E172|Iron oxides|Eisenoxide
+E173|Aluminium|Aluminium
+E174|Silver|Silber
+E175|Gold|Gold
+E180|Litholrubine BK|Litholrubin BK
+E200|Sorbic acid|Sorbinsäure
+E202|Potassium sorbate|Kaliumsorbat
+E210|Benzoic acid|Benzoesäure
+E211|Sodium benzoate|Natriumbenzoat
+E212|Potassium benzoate|Kaliumbenzoat
+E213|Calcium benzoate|Calciumbenzoat
+E214|Ethyl p-hydroxybenzoate|Ethyl-p-hydroxybenzoat
+E215|Sodium ethyl p-hydroxybenzoate|Natriumethyl-p-hydroxybenzoat
+E218|Methyl p-hydroxybenzoate|Methyl-p-hydroxybenzoat
+E219|Sodium methyl p-hydroxybenzoate|Natriummethyl-p-hydroxybenzoat
+E220|Sulphur dioxide|Schwefeldioxid
+E221|Sodium sulphite|Natriumsulfit
+E222|Sodium hydrogen sulphite|Natriumhydrogensulfit
+E223|Sodium metabisulphite|Natriummetabisulfit
+E224|Potassium metabisulphite|Kaliummetabisulfit
+E226|Calcium sulphite|Calciumsulfit
+E227|Calcium hydrogen sulphite|Calciumhydrogensulfit
+E228|Potassium hydrogen sulphite|Kaliumhydrogensulfit
+E234|Nisin|Nisin
+E235|Natamycin|Natamycin
+E239|Hexamethylene tetramine|Hexamethylentetramin
+E242|Dimethyl dicarbonate|Dimethyldicarbonat
+E243|Ethyl lauroyl arginate|Ethyllaurylarginat
+E249|Potassium nitrite|Kaliumnitrit
+E250|Sodium nitrite|Natriumnitrit
+E251|Sodium nitrate|Natriumnitrat
+E252|Potassium nitrate|Kaliumnitrat
+E260|Acetic acid|Essigsäure
+E261|Potassium acetates|Kaliumacetate
+E262|Sodium acetates|Natriumacetate
+E263|Calcium acetate|Calciumacetat
+E267|Buffered vinegar|Gepufferter Essig
+E270|Lactic acid|Milchsäure
+E280|Propionic acid|Propionsäure
+E281|Sodium propionate|Natriumpropionat
+E282|Calcium propionate|Calciumpropionat
+E283|Potassium propionate|Kaliumpropionat
+E284|Boric acid|Borsäure
+E285|Sodium tetraborate|Natriuntetraborat
+E290|Carbon dioxide|Kohlendioxid
+E296|Malic acid|Äpfelsäure
+E297|Fumaric acid|Fumarsäure
+E300|Ascorbic acid|Ascorbinsäure
+E301|Sodium ascorbate|Natriumascorbat
+E302|Calcium ascorbate|Calciumascorbat
+E304|Fatty acid esters of ascorbic acid|Fettsäureester der Ascorbinsäure
+E306|Tocopherols|Tocopherole
+E307|Alpha-tocopherol|Alpha-Tocopherol
+E308|Gamma-tocopherol|Gamma-Tocopherol
+E309|Delta-tocopherol|Delta-Tocopherol
+E310|Propyl gallate|Propylgallat
+E315|Erythorbic acid|Erythorbinsäure
+E316|Sodium erythorbate|Natriumerythorbat
+E319|Tertiary-butylhydroquinone|TBHQ
+E320|Butylated hydroxyanisole|BHA
+E321|Butylated hydroxytoluene|BHT
+E322|Lecithins|Lecithine
+E322a|Oat lecithin|Haferlecithin
+E325|Sodium lactate|Natriumlactat
+E326|Potassium lactate|Kaliumlactat
+E327|Calcium lactate|Calciumlactat
+E330|Citric acid|Citronensäure
+E331|Sodium citrates|Natriumcitrate
+E332|Potassium citrates|Kaliumcitrate
+E333|Calcium citrates|Calciumcitrate
+E334|Tartaric acid|Weinsäure
+E335|Sodium tartrates|Natriumtartrate
+E336|Potassium tartrates|Kaliumtartrate
+E337|Sodium potassium tartrate|Natriumkaliumtartrat
+E338|Phosphoric acid|Phosphorsäure
+E339|Sodium phosphates|Natriumphosphate
+E340|Potassium phosphates|Kaliumphosphate
+E341|Calcium phosphates|Calciumphosphate
+E343|Magnesium phosphates|Magnesiumphosphate
+E345|Magnesium citrate|Magnesiumcitrat
+E350|Sodium malates|Natriummalate
+E351|Potassium malate|Kaliummalat
+E352|Calcium malates|Calciummalate
+E353|Metatartaric acid|Metaveinsäure
+E354|Calcium tartrate|Calciumtartrat
+E355|Adipic acid|Adipinsäure
+E356|Sodium adipate|Natriumadipat
+E357|Potassium adipate|Kaliumadipat
+E363|Succinic acid|Bernsteinsäure
+E380|Triammonium citrate|Triammoniumcitrat
+E385|Calcium disodium EDTA|Calciumdinatrium-EDTA
+E392|Extracts of rosemary|Rosmarinextrakt
+E400|Alginic acid|Alginsäure
+E401|Sodium alginate|Natriumalginat
+E402|Potassium alginate|Kaliumalginat
+E403|Ammonium alginate|Ammoniumalginat
+E404|Calcium alginate|Calciumalginat
+E405|Propane-1,2-diol alginate|Propylenglycolalginat
+E406|Agar|Agar-Agar
+E407|Carrageenan|Carrageen
+E407a|Processed eucheuma seaweed|Verarbeitete Eucheuma-Algen
+E410|Locust bean gum|Johannisbrotkernmehl
+E412|Guar gum|Guarkernmehl
+E413|Tragacanth|Traganth
+E414|Acacia gum|Gummi arabicum
+E415|Xanthan gum|Xanthan
+E416|Karaya gum|Karaya
+E417|Tara gum|Tarakernmehl
+E418|Gellan gum|Gellan
+E420|Sorbitol|Sorbit
+E421|Mannitol|Mannit
+E422|Glycerol|Glycerin
+E423|Octenyl succinic acid modified gum arabic|Octenylsuccinat-Gummi arabicum
+E425|Konjac|Konjak
+E426|Soybean hemicellulose|Sojabohnen-Hemicellulose
+E427|Cassia gum|Cassiakernmehl
+E428|Gelatine|Gelatine
+E431|Polyoxyethylene (40) stearate|Polyoxyethylen(40)-stearat
+E432|Polysorbate 20|Polysorbat 20
+E433|Polysorbate 80|Polysorbat 80
+E434|Polysorbate 40|Polysorbat 40
+E435|Polysorbate 60|Polysorbat 60
+E436|Polysorbate 65|Polysorbat 65
+E440|Pectins|Pektine
+E441|Gelatine|Gelatine
+E442|Ammonium phosphatides|Ammoniumphosphatide
+E444|Sucrose acetate isobutyrate|Saccharoseacetatisobutyrat
+E445|Glycerol esters of wood rosin|Glycerinester aus Wurzelharz
+E450|Diphosphates|Diphosphate
+E451|Triphosphates|Triphosphate
+E452|Polyphosphates|Polyphosphate
+E456|Potassium polyaspartate|Kaliumpolyaspartat
+E459|Beta-cyclodextrin|Beta-Cyclodextrin
+E460|Cellulose|Cellulose
+E461|Methyl cellulose|Methylcellulose
+E462|Ethyl cellulose|Ethylcellulose
+E463|Hydroxypropyl cellulose|Hydroxypropylcellulose
+E463a|Low-substituted hydroxypropyl cellulose|Niedrig substituierte Hydroxypropylcellulose
+E464|Hydroxypropyl methyl cellulose|Hydroxypropylmethylcellulose
+E465|Ethyl methyl cellulose|Ethylmethylcellulose
+E466|Sodium carboxymethyl cellulose|Natrium-Carboxymethylcellulose
+E468|Cross-linked sodium carboxymethyl cellulose|Vernetze Natrium-Carboxymethylcellulose
+E469|Enzymatically hydrolysed carboxymethyl cellulose|Enzymatisch hydrolysierte Carboxymethylcellulose
+E470a|Sodium, potassium and calcium salts of fatty acids|Natrium-, Kalium- und Calciumsalze der Speisefettsäuren
+E470b|Magnesium salts of fatty acids|Magnesiumsalze der Speisefettsäuren
+E471|Mono- and diglycerides of fatty acids|Mono- und Diglyceride von Speisefettsäuren
+E472a|Acetic acid esters of mono- and diglycerides|Essigsäureester der Mono- und Diglyceride
+E472b|Lactic acid esters of mono- and diglycerides|Milchsäureester der Mono- und Diglyceride
+E472c|Citric acid esters of mono- and diglycerides|Citronensäureester der Mono- und Diglyceride
+E472d|Tartaric acid esters of mono- and diglycerides|Weinsäureester der Mono- und Diglyceride
+E472e|Mono- and diacetyltartaric acid esters of mono- and diglycerides|Mono- und Diacetylweinsäureester der Mono- und Diglyceride
+E472f|Mixed acetic and tartaric acid esters of mono- and diglycerides|Gemischte Essig- und Weinsäureester der Mono- und Diglyceride
+E473|Sucrose esters of fatty acids|Zuckerester von Speisefettsäuren
+E474|Sucroglycerides|Zuckerglyceride
+E475|Polyglycerol esters of fatty acids|Polyglycerinester von Speisefettsäuren
+E476|Polyglycerol polyricinoleate|Polyglycerin-Polyricinoleat
+E477|Propane-1,2-diol esters of fatty acids|Propylenglycolester von Speisefettsäuren
+E479b|Thermally oxidised soya bean oil with mono- and diglycerides|Thermisch oxidiertes Sojaöl mit Mono- und Diglyceriden
+E481|Sodium stearoyl-2-lactylate|Natriumstearoyl-2-lactylat
+E482|Calcium stearoyl-2-lactylate|Calciumstearoyl-2-lactylat
+E483|Stearyl tartrate|Stearyltartrat
+E491|Sorbitan monostearate|Sorbitanmonostearat
+E492|Sorbitan tristearate|Sorbitantristearat
+E493|Sorbitan monolaurate|Sorbitanmonolaurat
+E494|Sorbitan monooleate|Sorbitanmonooleat
+E495|Sorbitan monopalmitate|Sorbitanmonopalmitat
+E499|Stigmasterol-rich plant sterols|Stigmasterinreiche Phytosterine
+E500|Sodium carbonates|Natriumcarbonate
+E501|Potassium carbonates|Kaliumcarbonate
+E503|Ammonium carbonates|Ammoniumcarbonate
+E504|Magnesium carbonates|Magnesiumcarbonate
+E507|Hydrochloric acid|Salzsäure
+E508|Potassium chloride|Kaliumchlorid
+E509|Calcium chloride|Calciumchlorid
+E511|Magnesium chloride|Magnesiumchlorid
+E512|Stannous chloride|Zinnchlorid
+E513|Sulphuric acid|Schwefelsäure
+E514|Sodium sulphates|Natriumsulfate
+E515|Potassium sulphates|Kaliumsulfate
+E516|Calcium sulphate|Calciumsulfat
+E517|Ammonium sulphate|Ammoniumsulfat
+E520|Aluminium sulphate|Aluminiumsulfat
+E521|Aluminium sodium sulphate|Aluminiumnatriumsulfat
+E522|Aluminium potassium sulphate|Aluminiumkaliumsulfat
+E523|Aluminium ammonium sulphate|Aluminiumammoniumsulfat
+E524|Sodium hydroxide|Natriumhydroxid
+E525|Potassium hydroxide|Kaliumhydroxid
+E526|Calcium hydroxide|Calciumhydroxid
+E527|Ammonium hydroxide|Ammoniumhydroxid
+E528|Magnesium hydroxide|Magnesiumhydroxid
+E529|Calcium oxide|Calciumoxid
+E530|Magnesium oxide|Magnesiumoxid
+E534|Tin(II) sulphate|Zinn(II)-sulfat
+E535|Sodium ferrocyanide|Natriumferrocyanid
+E536|Potassium ferrocyanide|Kaliumferrocyanid
+E538|Calcium ferrocyanide|Calciumferrocyanid
+E541|Sodium aluminium phosphate|Natriumaluminiumphosphat
+E542|Bone phosphate|Knochenphosphat
+E551|Silicon dioxide|Siliciumdioxid
+E552|Calcium silicate|Calciumsilicat
+E553a|Magnesium silicate|Magnesiumsilicat
+E553b|Talc|Talkum
+E554|Sodium aluminium silicate|Natriumaluminiumsilicat
+E555|Potassium aluminium silicate|Kaliumaluminiumsilicat
+E570|Fatty acids|Speisefettsäuren
+E574|Gluconic acid|Gluconsäure
+E575|Glucono-delta-lactone|Glucono-delta-lacton
+E576|Sodium gluconate|Natriumgluconat
+E577|Potassium gluconate|Kaliumgluconat
+E578|Calcium gluconate|Calciumgluconat
+E579|Ferrous gluconate|Eisengluconat
+E585|Ferrous lactate|Eisenlactat
+E586|4-Hexylresorcinol|4-Hexylresorcin
+E620|Glutamic acid|Glutaminsäure
+E621|Monosodium glutamate|Mononatriumglutamat
+E622|Monopotassium glutamate|Monokaliumglutamat
+E623|Calcium diglutamate|Calciumdiglutamat
+E624|Monoammonium glutamate|Monoammoniumglutamat
+E625|Magnesium diglutamate|Magnesiumdiglutamat
+E626|Guanylic acid|Guanylsäure
+E627|Disodium guanylate|Dinatriumguanylat
+E628|Dipotassium guanylate|Dikaliumguanylat
+E629|Calcium guanylate|Calciumguanylat
+E630|Inosinic acid|Inosinsäure
+E631|Disodium inosinate|Dinatriuminosinat
+E632|Dipotassium inosinate|Dikaliuminosinat
+E633|Calcium inosinate|Calciuminosinat
+E634|Calcium 5'-ribonucleotides|Calcium-5'-ribonucleotide
+E635|Disodium 5'-ribonucleotides|Dinatrium-5'-ribonucleotide
+E640|Glycine and its sodium salt|Glycin und dessen Natriumsalz
+E641|L-leucine|L-Leucin
+E650|Zinc acetate|Zinkacetat
+E900|Dimethylpolysiloxane|Dimethylpolysiloxan
+E901|Beeswax|Bienenwachs
+E902|Candelilla wax|Candelillawachs
+E903|Carnauba wax|Carnaubawachs
+E904|Shellac|Schellack
+E905|Microcrystalline wax|Mikrokristallines Wachs
+E907|Hydrogenated poly-1-decene|Hydriertes Poly-1-decen
+E912|Montan acid esters|Montansäureester
+E913|Lanolin|Lanolin
+E914|Oxidised polyethylene wax|Oxidiertes Polyethylenwachs
+E920|L-cysteine|L-Cystein
+E921|L-cystine|L-Cystin
+E927b|Carbamide|Carbamid
+E938|Argon|Argon
+E939|Helium|Helium
+E941|Nitrogen|Stickstoff
+E942|Nitrous oxide|Distickstoffoxid
+E943a|Butane|Butan
+E943b|Isobutane|Isobutan
+E944|Propane|Propan
+E948|Oxygen|Sauerstoff
+E949|Hydrogen|Wasserstoff
+E950|Acesulfame K|Acesulfam K
+E951|Aspartame|Aspartam
+E952|Cyclamic acid and its salts|Cyclaminsäure und ihre Salze
+E953|Isomalt|Isomalt
+E954|Saccharin and its salts|Saccharin und seine Salze
+E955|Sucralose|Sucralose
+E957|Thaumatin|Thaumatin
+E959|Neohesperidine DC|Neohesperidin DC
+E960a|Steviol glycosides from stevia|Steviolglycoside aus Stevia
+E960b|Steviol glycosides from fermentation|Steviolglycoside aus Fermentation
+E960c|Enzymatically produced steviol glycosides|Enzymatisch hergestellte Steviolglycoside
+E960d|Glucosylated steviol glycosides|Glucosylierte Steviolglycoside
+E961|Neotame|Neotam
+E962|Salt of aspartame-acesulfame|Aspartam-Acesulfamsalz
+E964|Polyglycitol syrup|Polyglycitsirup
+E965|Maltitol|Maltit
+E966|Lactitol|Lactit
+E967|Xylitol|Xylit
+E968|Erythritol|Erythrit
+E969|Advantame|Advantam
+E999|Quillaia extract|Quillajaextrakt
+E1000|Cholic acid|Cholsäure
+E1103|Invertase|Invertase
+E1105|Lysozyme|Lysozym
+E1200|Polydextrose|Polydextrose
+E1201|Polyvinylpyrrolidone|Polyvinylpyrrolidon
+E1202|Polyvinylpolypyrrolidone|Polyvinylpolypyrrolidon
+E1203|Polyvinyl alcohol|Polyvinylalkohol
+E1204|Pullulan|Pullulan
+E1205|Basic methacrylate copolymer|Basisches Methacrylat-Copolymer
+E1206|Neutral methacrylate copolymer|Neutrales Methacrylat-Copolymer
+E1207|Anionic methacrylate copolymer|Anionisches Methacrylat-Copolymer
+E1208|Polyvinylpyrrolidone-vinyl acetate copolymer|PVP-Vinylacetat-Copolymer
+E1209|Polyvinyl alcohol-polyethylene glycol copolymer|PVA-PEG-Copolymer
+E1210|Carbomer|Carbomer
+E1404|Oxidised starch|Oxidierte Stärke
+E1410|Monostarch phosphate|Monostärkephosphat
+E1412|Distarch phosphate|Distärkephosphat
+E1413|Phosphated distarch phosphate|Phosphatiertes Distärkephosphat
+E1414|Acetylated distarch phosphate|Acetyliertes Distärkephosphat
+E1420|Acetylated starch|Acetylierte Stärke
+E1422|Acetylated distarch adipate|Acetyliertes Distärkeadipat
+E1440|Hydroxypropyl starch|Hydroxypropylstärke
+E1442|Hydroxypropyl distarch phosphate|Hydroxypropyldistärkephosphat
+E1450|Starch sodium octenyl succinate|Stärke-Natriumoctenylsuccinat
+E1451|Acetylated oxidised starch|Acetylierte oxidierte Stärke
+E1452|Starch aluminium octenyl succinate|Stärkealuminiumoctenylsuccinat
+E1505|Triethyl citrate|Triethylcitrat
+E1517|Glyceryl diacetate|Glycerindiacetat
+E1518|Glyceryl triacetate|Glycerintriacetat
+E1519|Benzyl alcohol|Benzylalkohol
+E1520|Propane-1,2-diol|Propylenglycol
+E1521|Polyethylene glycol|Polyethylenglycol
