@@ -14,6 +14,11 @@ This file lists what the additive JSON is built from. No third-party articles ar
 - **BVL** (Germany), public additive information — count and consumer framing, not vegan status.
   - https://www.bvl.bund.de/DE/Arbeitsbereiche/01_Lebensmittel/03_Verbraucher/05_Zusatzstoffe/lm_zusatzst_node.html
 
+## Historical and cited codes
+
+- **Withdrawn Union-list entries** (source id `1333`): codes that were in Annex II and later removed (e.g. E 203 via Regulation (EU) 2018/98). Still searchable; marked not food-authorised.
+- **Cited E/INS lookups** (source id `hist`): codes people type from Wikipedia or Codex INS lists that were never an official EU food E-number, plus former feed-additive numbers (E 700 range). Names only. Wikipedia article text is not copied. INS numbers are not given a fake E-prefix unless the code is already widely searched that way; the reason states that it is not an official EU food E-number.
+
 ## Names and aliases only
 
 - **Open Food Facts** additives taxonomy (`taxonomies/additives.txt`), ODbL 1.0.

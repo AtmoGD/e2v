@@ -84,7 +84,7 @@ Three states. Colour is not enough (WCAG).
 | Circle + slash | `not_vegan` | Always animal in the authorised spec (or a well-known ghost code like gelatine). |
 | Diamond + bar | `maybe` | Plant *or* animal, or sources disagree. Prefer unsure over a false green. |
 
-**Always not vegan (high confidence):** E120, E901 beeswax, E904 shellac, E966 lactitol, E1105 lysozyme (hen egg in the EU spec), plus ghost lookups E428/E441 gelatine, E542 bone phosphate, E913 lanolin, E1000 cholic acid.
+**Always not vegan (high confidence):** E120, E901 beeswax, E904 shellac, E966 lactitol, E1105 lysozyme (hen egg in the EU spec), plus ghost lookups E428/E441 gelatine, E542 bone phosphate, E909 spermaceti, E913 lanolin, E1000 cholic acid.
 
 **Often maybe:** E101, E160a, E322 (not E322a), E304, E422, E431–436, E442, E445, E470a/b, E471–477, E479b, E481–483, E491–495, E570, E626–635, E640, E920, E1517/E1518, E476 (sources conflict).
 
@@ -94,7 +94,7 @@ This is **shopping guidance**, not a guarantee and not allergy advice. Origin ca
 
 ## Database
 
-About **344** codes: EU Annex II Part B inventory (Regulation (EC) No 1333/2008, plus E960b from 2025/652 and E246 glycolipids) and a few ghost codes people still type.
+About **533** codes: EU Annex II Part B inventory (Regulation (EC) No 1333/2008, plus E960b from 2025/652 and E246 glycolipids), withdrawn former E-numbers, and widely typed ghost/INS codes.
 
 - Built by `scripts/inventory.txt` + `scripts/overlay.mjs` → `src/data/additives.json`
 - Rebuild: `npm run build:data`

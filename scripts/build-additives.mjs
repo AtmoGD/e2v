@@ -1,7 +1,10 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { EXTRAS } from "./extras.mjs";
 import {
+  CITED_CODES,
+  FEED_CODES,
   GHOSTS,
   NOT_FOOD_AUTHORISED,
   reasonFor,
@@ -20,8 +23,22 @@ function parseCode(code) {
   return { digitKey: m[1], suffix: m[2]?.toLowerCase() ?? "" };
 }
 
-const additives = inventory.map((line) => {
-  const [code, en, de] = line.split("|");
+const LEGACY_GHOST_SOURCES = new Set([
+  "E428",
+  "E441",
+  "E542",
+  "E913",
+  "E1000",
+]);
+
+/** @param {string} code */
+function sourcesFor(code) {
+  if (LEGACY_GHOST_SOURCES.has(code)) return ["overlay", "fi"];
+  if (CITED_CODES.has(code) || FEED_CODES.has(code)) return ["hist", "overlay"];
+  return ["1333", "overlay"];
+}
+
+function toRow(code, en, de) {
   const { digitKey, suffix } = parseCode(code);
   const status = statusFor(code);
   return {
@@ -33,15 +50,31 @@ const additives = inventory.map((line) => {
     reason: reasonFor(code, status),
     authorised_eu: !GHOSTS.has(code),
     food_authorised_eu: !NOT_FOOD_AUTHORISED.has(code),
-    sources: GHOSTS.has(code) ? ["overlay", "fi"] : ["1333", "overlay"],
+    sources: sourcesFor(code),
   };
+}
+
+const additives = inventory.map((line) => {
+  const [code, en, de] = line.split("|");
+  return toRow(code, en, de);
 });
 
-const seen = new Set();
-for (const row of additives) {
-  if (seen.has(row.code)) throw new Error(`Duplicate ${row.code}`);
-  seen.add(row.code);
+const seen = new Set(additives.map((row) => row.code));
+for (const extra of EXTRAS) {
+  if (seen.has(extra.code)) throw new Error(`Duplicate extra ${extra.code}`);
+  seen.add(extra.code);
+  additives.push(toRow(extra.code, extra.en, extra.de));
 }
+
+additives.sort((a, b) => {
+  if (a.digitKey.length !== b.digitKey.length) {
+    return a.digitKey.length - b.digitKey.length;
+  }
+  const na = Number(a.digitKey);
+  const nb = Number(b.digitKey);
+  if (na !== nb) return na - nb;
+  return (a.suffix ?? "").localeCompare(b.suffix ?? "");
+});
 
 const outDir = join(root, "src/data");
 mkdirSync(outDir, { recursive: true });

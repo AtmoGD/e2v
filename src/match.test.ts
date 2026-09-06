@@ -198,12 +198,33 @@ describe("seed statuses in additives.json", () => {
   });
 
   it("stays on the curated inventory, not roman-numeral aliases", () => {
-    expect(db.length).toBeGreaterThan(330);
-    expect(db.length).toBeLessThan(360);
+    expect(db.length).toBeGreaterThan(500);
+    expect(db.length).toBeLessThan(560);
     expect(byCode(db, "E483")?.status).toBe("maybe");
     for (const row of db) {
       expect(row.code, row.code).not.toMatch(/[()]/);
     }
+  });
+
+  it("keeps one substance per code when Wikipedia names disagree", () => {
+    expect(byCode(db, "E121")?.names.en).toMatch(/orcein/i);
+    expect(byCode(db, "E121")?.names.de).toMatch(/orcein/i);
+    expect(byCode(db, "E121")?.reason.en).toMatch(/citrus red 2/i);
+    expect(byCode(db, "E121")?.food_authorised_eu).toBe(false);
+    expect(byCode(db, "E238")?.names.en).toMatch(/calcium formate/i);
+    expect(byCode(db, "E238")?.names.de).toMatch(/calciumformiat/i);
+  });
+
+  it("covers withdrawn, annex leftovers, and cited ghosts", () => {
+    expect(byCode(db, "E203")?.food_authorised_eu).toBe(false);
+    expect(byCode(db, "E203")?.sources).toContain("1333");
+    expect(byCode(db, "E556")?.authorised_eu).toBe(true);
+    expect(byCode(db, "E556")?.food_authorised_eu).toBe(false);
+    expect(byCode(db, "E960")?.status).toBe("vegan");
+    expect(byCode(db, "E960")?.food_authorised_eu).toBe(true);
+    expect(byCode(db, "E909")?.status).toBe("not_vegan");
+    expect(byCode(db, "E701")?.food_authorised_eu).toBe(false);
+    expect(byCode(db, "E701")?.sources).toContain("hist");
   });
 
   it("keeps the 2026 inventory corrections", () => {
