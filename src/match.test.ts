@@ -199,7 +199,7 @@ describe("seed statuses in additives.json", () => {
 
   it("stays on the curated inventory, not roman-numeral aliases", () => {
     expect(db.length).toBeGreaterThan(500);
-    expect(db.length).toBeLessThan(560);
+    expect(db.length).toBeLessThan(650);
     expect(byCode(db, "E483")?.status).toBe("maybe");
     for (const row of db) {
       expect(row.code, row.code).not.toMatch(/[()]/);
@@ -225,6 +225,16 @@ describe("seed statuses in additives.json", () => {
     expect(byCode(db, "E909")?.status).toBe("not_vegan");
     expect(byCode(db, "E701")?.food_authorised_eu).toBe(false);
     expect(byCode(db, "E701")?.sources).toContain("hist");
+    expect(byCode(db, "E700")?.names.en).toMatch(/benzoate/i);
+    expect(byCode(db, "E700")?.sources).toContain("1831");
+    expect(byCode(db, "E700")?.food_authorised_eu).toBe(false);
+    expect(byCode(db, "E672")?.names.en).toMatch(/vitamin a/i);
+    expect(byCode(db, "E672")?.sources).toContain("1831");
+    expect(byCode(db, "E284")?.names.en).toMatch(/boric acid/i);
+    expect(byCode(db, "E284")?.food_authorised_eu).toBe(true);
+    expect(byCode(db, "E284")?.reason.en).toMatch(/ammonium propionate/i);
+    expect(byCode(db, "E484")?.names.en).toMatch(/ricinoleate/i);
+    expect(byCode(db, "E560")?.names.en).toMatch(/steatite/i);
   });
 
   it("keeps the 2026 inventory corrections", () => {

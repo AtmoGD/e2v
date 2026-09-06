@@ -17,7 +17,10 @@ This file lists what the additive JSON is built from. No third-party articles ar
 ## Historical and cited codes
 
 - **Withdrawn Union-list entries** (source id `1333`): codes that were in Annex II and later removed (e.g. E 203 via Regulation (EU) 2018/98). Still searchable; marked not food-authorised.
-- **Cited E/INS lookups** (source id `hist`): codes people type from Wikipedia or Codex INS lists that were never an official EU food E-number, plus former feed-additive numbers (E 700 range). Names only. Wikipedia article text is not copied. INS numbers are not given a fake E-prefix unless the code is already widely searched that way; the reason states that it is not an official EU food E-number.
+- **EU Register of Feed Additives** (source id `1831`): distinctive feed E-numbers from Regulation (EC) No 1831/2003 and the Community register (last PDF editions before the April 2023 FIP portal). Includes E 700 (preservative mix), E 671/E 672 (vitamins), silica variants E 551a–c, binders E 567/E 568, coccidiostats E 756–E 773, and old enzyme/culture codes E 1601–E 1715. Not human-food authorisations. Alphanumeric IDs such as `3a370` are not in this app yet.
+  - https://food.ec.europa.eu/food-safety/animal-feed/feed-additives_en
+  - https://eur-lex.europa.eu/eli/reg/2003/1831/oj
+- **Cited E/INS lookups** (source id `hist`): codes people type from Wikipedia or Codex INS lists that were never an official EU food E-number, plus former feed-antibiotic numbers (E 701–E 717). Names only. Wikipedia article text is not copied. INS numbers are not given a fake E-prefix unless the code is already widely searched that way; the reason states that it is not an official EU food E-number.
 
 ## Names and aliases only
 

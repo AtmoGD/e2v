@@ -31,14 +31,15 @@ const LEGACY_GHOST_SOURCES = new Set([
   "E1000",
 ]);
 
-/** @param {string} code */
-function sourcesFor(code) {
+/** @param {string} code @param {string | undefined} extraSource */
+function sourcesFor(code, extraSource) {
   if (LEGACY_GHOST_SOURCES.has(code)) return ["overlay", "fi"];
+  if (extraSource === "1831") return ["1831", "overlay"];
   if (CITED_CODES.has(code) || FEED_CODES.has(code)) return ["hist", "overlay"];
   return ["1333", "overlay"];
 }
 
-function toRow(code, en, de) {
+function toRow(code, en, de, extraSource) {
   const { digitKey, suffix } = parseCode(code);
   const status = statusFor(code);
   return {
@@ -50,7 +51,7 @@ function toRow(code, en, de) {
     reason: reasonFor(code, status),
     authorised_eu: !GHOSTS.has(code),
     food_authorised_eu: !NOT_FOOD_AUTHORISED.has(code),
-    sources: sourcesFor(code),
+    sources: sourcesFor(code, extraSource),
   };
 }
 
@@ -63,7 +64,7 @@ const seen = new Set(additives.map((row) => row.code));
 for (const extra of EXTRAS) {
   if (seen.has(extra.code)) throw new Error(`Duplicate extra ${extra.code}`);
   seen.add(extra.code);
-  additives.push(toRow(extra.code, extra.en, extra.de));
+  additives.push(toRow(extra.code, extra.en, extra.de, extra.source));
 }
 
 additives.sort((a, b) => {

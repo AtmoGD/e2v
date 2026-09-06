@@ -106,7 +106,6 @@ export const STATUS_OVERRIDE = {
   E472g: "maybe",
   E478: "maybe",
   E480: "maybe",
-  E484: "maybe",
   E485: "maybe",
   E486: "maybe",
   E488: "maybe",
@@ -274,13 +273,25 @@ export const REASON_OVERRIDE = {
     en: "Calcium formate in the old EU list. Not potassium formate.",
     de: "Calciumformiat in der alten EU-Liste. Nicht Kaliumformiat.",
   },
+  E284: {
+    en: "EU food E284 is boric acid. The feed register used this code for ammonium propionate.",
+    de: "EU-Lebensmittel-E284 ist Borsäure. Im Futtermittelregister stand hier Ammoniumpropionat.",
+  },
+  E499: {
+    en: "EU food E499 is stigmasterol-rich plant sterols. The feed register used this code for cassia gum.",
+    de: "EU-Lebensmittel-E499 sind stigmasterinreiche Phytosterine. Im Futtermittelregister stand hier Cassiagummi.",
+  },
+  E700: {
+    en: "Official feed preservative mix (benzoate + propionic acid + sodium propionate). Not a tetracycline. Wikipedia's E700–E799 antibiotics start at E701.",
+    de: "Offizielle Futter-Konservierungsmischung (Benzoat + Propionsäure + Natriumpropionat). Kein Tetracyclin. Die Wikipedia-Antibiotika E700–E799 beginnen bei E701.",
+  },
   E408: {
     en: "Historical EU seaweed gum (furcellaran). Baker's yeast glycan is INS 408, a different substance.",
     de: "Früheres EU-Algengummi (Furcellaran). Hefeglycan ist INS 408, ein anderer Stoff.",
   },
   E411: {
-    en: "Oat gum (INS 411). Tamarind gum is a different thickener (INS 437).",
-    de: "Hafergummi (INS 411). Tamarindenkernmehl ist ein anderer Verdicker (INS 437).",
+    en: "Historical oat gum (INS 411). The feed register used E411 for tamarind seed flour; tamarind gum is INS 437.",
+    de: "Früheres Hafergummi (INS 411). Das Futtermittelregister nutzte E411 für Tamarindenkernmehl; Tamarindengummi ist INS 437.",
   },
   E480: {
     en: "INS 480 is docusate. Some lists use this code for stearoyl-2-lactylic acid (feed only).",
